@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oUI-XA-2hS">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="imagePicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstract-christmas-background-iphone-x" translatesAutoresizingMaskIntoConstraints="NO" id="WWu-xO-xMk">
+                                <rect key="frame" x="0.0" y="88" width="414" height="784"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKd-jZ-Oc6">
+                                <rect key="frame" x="20" y="382" width="374" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.45980685949325562" green="0.083260484039783478" blue="0.070544935762882233" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" red="0.97291373830000005" green="1" blue="0.98584618150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" red="0.97291373830000005" green="1" blue="0.98584618150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" red="0.97291373830000005" green="1" blue="0.98584618150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lSv-I0-vxD" kind="show" id="cPf-Fc-N18"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfT-SQ-pug">
+                                <rect key="frame" x="20" y="200" width="374" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.97291373830000005" green="1" blue="0.98584618150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT3-Pe-7Aa">
+                                <rect key="frame" x="20" y="520" width="374" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49878954887390137" green="0.095196597278118134" blue="0.074459336698055267" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" red="0.97291373830000005" green="1" blue="0.98584618150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="SIGN UP">
+                                    <color key="titleColor" red="0.97291373830000005" green="1" blue="0.98584618150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" red="0.97291373830000005" green="1" blue="0.98584618150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ybp-WL-TWb"/>
+                    <connections>
+                        <outlet property="globeButton" destination="BKd-jZ-Oc6" id="xSU-3C-nPi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1421.7391304347827" y="762.72321428571422"/>
+        </scene>
+        <!--Profile Controller-->
+        <scene sceneID="lwy-HN-FgF">
+            <objects>
+                <viewController id="lSv-I0-vxD" customClass="ProfileController" customModule="imagePicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uMl-B5-0Kg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="papers.co-vy95-lines-red-abstract-pattern-background-41-iphone-wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="1Y9-oa-bCJ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XeW-Pt-v0y">
+                                <rect key="frame" x="82" y="114" width="250" height="250"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Pv7-1y-yTf"/>
+                                    <constraint firstAttribute="width" constant="250" id="aKa-kF-ZLG"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="B0Q-lG-UqR" appends="YES" id="vJH-O8-WhP"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RoG-Hm-O54">
+                                <rect key="frame" x="-112" y="139" width="239" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Qof-Rx-2L9"/>
+                                    <constraint firstAttribute="height" constant="250" id="SoW-ke-fNM"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="addNewPhoto:" destination="lSv-I0-vxD" eventType="touchUpInside" id="bYc-Xx-c8R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XeW-Pt-v0y" firstAttribute="centerX" secondItem="1Y9-oa-bCJ" secondAttribute="centerX" id="3Av-2G-hJE"/>
+                            <constraint firstItem="1Y9-oa-bCJ" firstAttribute="trailing" secondItem="h4z-lJ-Mpw" secondAttribute="trailing" id="MYQ-sY-LJs"/>
+                            <constraint firstItem="1Y9-oa-bCJ" firstAttribute="top" secondItem="XeW-Pt-v0y" secondAttribute="bottom" constant="-276" id="SjH-bu-Wan"/>
+                            <constraint firstItem="1Y9-oa-bCJ" firstAttribute="bottom" secondItem="h4z-lJ-Mpw" secondAttribute="bottom" id="TbX-p7-Uef"/>
+                            <constraint firstItem="1Y9-oa-bCJ" firstAttribute="top" secondItem="h4z-lJ-Mpw" secondAttribute="top" id="ZWK-du-vTg"/>
+                            <constraint firstItem="1Y9-oa-bCJ" firstAttribute="leading" secondItem="h4z-lJ-Mpw" secondAttribute="leading" id="cMt-xs-mxi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h4z-lJ-Mpw"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageProfile" destination="XeW-Pt-v0y" id="yqV-6U-lwA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nh5-7b-uSX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="B0Q-lG-UqR">
+                    <connections>
+                        <action selector="tapPiece:" destination="lSv-I0-vxD" id="w8S-rj-E2R"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2306" y="763"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Hp5-g5-7Wp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oUI-XA-2hS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vve-pB-VlS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zSM-bE-vIb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="96X-U3-08M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="186.95652173913044" y="762.72321428571422"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="abstract-christmas-background-iphone-x" width="1125" height="2436"/>
+        <image name="papers.co-vy95-lines-red-abstract-pattern-background-41-iphone-wallpaper" width="1125" height="2436"/>
+    </resources>
+</document>
